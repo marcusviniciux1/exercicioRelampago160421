@@ -4,15 +4,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AlunoEnsinoMedioTest {
     @Test
-    void retornaAlunoGraduacaoNome() {
-        AlunoGraduacao aluno = new AlunoGraduacao();
+    void retornaAlunoEnsinoMedioNome() {
+        AlunoEnsinoMedio aluno = new AlunoEnsinoMedio();
         aluno.setNome("Vinícius");
         assertEquals("Vinícius", aluno.getNome());
     }
 
     @Test
-    void retornaAlunoGraduacaoMatricula() {
-        AlunoGraduacao aluno = new AlunoGraduacao();
+    void retornaAlunoEnsinoMedioMatricula() {
+        AlunoEnsinoMedio aluno = new AlunoEnsinoMedio();
         aluno.setMatricula(201976010);
         assertEquals(201976010, aluno.getMatricula());
     }
